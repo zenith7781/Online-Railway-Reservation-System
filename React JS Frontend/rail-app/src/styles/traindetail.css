@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Noto+Sans+Balinese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+.traineach{
+    padding: 15px;
+    border: 3px solid green;
+    border-radius: 15px;
+    margin:18px;
+    background-color: azure;
+    width: 700px;
+    /*display: inline-block;*/
+}
+
+.traineach:hover > .tname, .traineach:hover> .trnno{
+    /* font-weight: 500; */
+    color: rgb(85, 9, 155);
+    transition: color 0.6s ease-out;
+}
+.container{
+    background-image: url("../images/train_detail.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100% 158%;
+}
+.aside1{
+    margin:18px;
+    border: 2px solid #f80707;
+    padding: 10px;
+    margin-left: 35px;
+    color: darkslateblue;
+    background-color: floralwhite;
+    height: 300px;
+}
+.aside2{
+    font-size: 22px;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+    color: #4d0cbd;
+}
+.navbar1{
+    height: 64px;
+    background-color: #3a96f8;
+    background-image: linear-gradient(131deg, #e4310d 18%, #f686d8 47%, #8c0cb6 80%);
+    text-align: center;
+    font-size: 31px;
+    padding-top: 12px;
+    font-family: 'Changa', sans-serif;
+    color: #fdfdd3;
+}
+.trnno{
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Lucida Handwriting', sans-serif;
+    color: #000;
+    font-weight: 500;
+    transition: 1s;
+}
+.tname{
+    margin-left: 90px;
+    font-size: x-large;
+    font-family: 'Tiro Bangla', serif;
+    transition: color 1s ease-out;
+}
+.notrain{
+    margin-top: 18px;
+    width: 68%;
+    border-radius: 16px;
+    border: 3px solid #9f37cc;
+    height: 82px;
+    color: #580a72;
+    text-align: center;
+    background-color: rgb(135, 217, 245);
+    padding: 18px;
+    float: right;
+    font-family: 'Kalam', cursive;
+    font-size: 23px;
+}

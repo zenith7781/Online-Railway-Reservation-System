@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.bgMain{
+    position: relative;
+    min-height: 745px;
+    padding: 30px;
+}
+.bgMain::after{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.25;
+    z-index: -1;
+    /* background-color: rgb(189, 239, 162); */
+    background-image: url('../images/castle1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.homebutton{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 6px;
+    background-color: rgb(209, 165, 247);
+    color: rgb(13, 62, 105);
+    text-decoration: none;
+}
+.homebutton:hover{
+    background-color: rgb(123, 9, 123);
+    color: whitesmoke;
+    font-size: large;
+}

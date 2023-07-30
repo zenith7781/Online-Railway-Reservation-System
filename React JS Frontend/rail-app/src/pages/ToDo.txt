@@ -1,0 +1,7 @@
+To create admin page, following are required:
+Profile page and update page should be admin specific.
+Buttons should check the token type and act accordingly.
+Homepage Navbar link of profile must redirect to admin panel after checking token type or any other parameter if necessary.
+
+To add a new train to timetable:
+Check whether the train exists. If yes, replace it. If no, add it by matching day and runs on days.

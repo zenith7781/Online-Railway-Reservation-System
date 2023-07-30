@@ -1,0 +1,30 @@
+#box1
+{
+    margin: auto;
+    width: 330px;
+    border: 2px solid rebeccapurple;
+    border-radius: 2.5%;
+    background-color: lavender;
+}
+.box2{
+    min-height: 525px;
+    background-image: url('../images/loginbg.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75% 100%;
+    /*border-color: cornsilk;*/
+}
+
+.btn.btn-info{
+    background-color: rgb(82, 15, 205);
+    color: whitesmoke;
+}
+/* .btn.btn-success:active
+{
+    background-color: rgb(55, 34, 189);
+} */
+.btn.btn-info:hover
+{
+    background-color: blue;
+    color: aliceblue;
+}

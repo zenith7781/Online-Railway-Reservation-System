@@ -1,0 +1,33 @@
+.btn.rose{
+    color: aliceblue;
+    background-color: orangered;
+}
+.rose:hover{
+    background-color: brown;
+}
+.btn.lotus{
+    background-color: rgb(224, 24, 124);
+    color: white;
+}
+.btn.lotus:hover{
+    background-color: rgb(143, 6, 61);
+}
+.adminBox{
+    margin-top: 29px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 10px;
+    border: 3px dashed rgb(125, 14, 125);
+    display: inline-block;
+    background-color: rgba(255, 215, 185, 0.697);
+    border-radius: 10px;
+}
+.adminBox input{
+    border: 2px solid brown;
+}
+.adminBox label{
+    color: rgb(27, 6, 99);
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}

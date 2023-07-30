@@ -1,0 +1,49 @@
+.backg{
+    background-image: url('../images/train1.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100% 126%;
+    min-height: 690px;
+}
+.irctc{
+    text-align:right;
+    color:floralwhite;
+    padding-top:15px;
+    margin-right:82px;
+}
+.searchbox{
+    width:520px;
+    min-height: 250px;
+    padding:30px;
+    background-color:whitesmoke;
+    margin-left:80px;
+    border: 3px solid purple;
+    border-radius:15px;
+}
+#sh{
+    font-size: 24px;
+    margin-left:82px;
+    font-family: 'Comic Sans MS';
+}
+input{
+    /*border-radius: 5px;*/
+    border:none;
+    background-color:whitesmoke;
+    padding:3px;
+    margin-bottom:9px;
+}
+input:focus{
+    border-bottom:2px solid indigo;
+}
+form div{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+form{
+    padding-left:15px;
+}
+.errormsg{
+    color: #da225d;
+    font-weight: bold;
+    font-size: medium;
+}

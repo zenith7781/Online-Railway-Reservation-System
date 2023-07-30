@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+.formdesign{
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    padding-left: 38px;
+    border-radius: 10px;
+    border: 2px solid rgb(14, 161, 234);
+    width: 900px;
+    background-color: #d7f7e0;
+    -webkit-box-shadow: 0 0 5px 2px rgba(9, 84, 132);
+    -moz-box-shadow: 0 0 5px 2px rgba(9, 84, 132);
+    box-shadow: 0 0 45px 2px rgb(14, 161, 234);
+}
+.FormPage{
+    background-position: center;
+    position: relative;
+}
+.FormPage::before{
+  content:"";
+  background-image: url("../images/passengers.jpg");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+  opacity:0.6;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
+}
+.h33s{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.seperator{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    background-color: blue;
+}
+.passengerEach{
+    padding:25px;
+    border:2px solid rgb(107, 9, 107);
+    margin-right:10px;
+    border-radius:3px;
+}

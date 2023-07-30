@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese&display=swap');
+.nav1 {
+    background-color: #f7860e;
+    background-image: linear-gradient(131deg, #f7860e 18%, #f3f3ec 47%, #097c13 80%);
+    height: auto;
+    padding-bottom: 9px;
+}
+.navicon{
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 8px;
+    height: 95px;
+    border-radius: 50%;
+    background-size:cover;
+}
+.navtext{
+    float:right;
+    padding:10px;
+    margin-top:30px;
+    margin-right:32px;
+    color:aliceblue;
+}
+.txts{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    padding:10px;
+    color:white;
+}
+.txts:hover{
+    color:maroon;
+    background-color:bisque;
+    border-radius:5px;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.name {
+    margin-left: 25px;
+    margin-top: 22px;
+    font-size: 42px;
+    float: right;
+    color: #130471;
+    text-decoration: dotted;
+    margin-right: 230px;
+    font-family: 'Kaushan Script', cursive;
+}
+.dess {
+    font-family: 'Noto Sans Balinese', sans-serif;
+    font-size:29px;
+}

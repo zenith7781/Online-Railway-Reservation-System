@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+.bcg{
+    /* background-color: darkblue; */
+    background: rgb(245,65,0);
+    background: linear-gradient(90deg, rgba(245,65,0,1) 25%, rgba(99,10,242,1) 78%);
+    color: #fcf9cc;
+    min-height: 108px;
+    font-size: 20px;
+}
+.span1{
+    margin-left: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 28px;
+}

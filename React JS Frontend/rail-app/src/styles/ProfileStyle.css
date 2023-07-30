@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+.main1{
+    padding: 20px;
+    background-color: lightcyan;
+    min-height: 563px;
+}
+
+#box11{
+    border: 1px solid red;
+    display: inline-block;
+    padding: 19px;
+    background-color: rgb(254, 252, 205);
+    font-size: 18px;
+}
+
+.box12{
+    font-family: 'Lucida Calligraphy';
+    font-size: x-large;
+}
+.updt1{
+    font-size: large;
+    min-height: 530px;
+    background-color: bisque;
+}
